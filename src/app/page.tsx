@@ -21,9 +21,9 @@ const Home = () => {
             </p>
           </section>
           <section>
-            <h3 className="section-header">What's Happening?</h3>
+            <h3 className="section-header">What&apos;'s Happening?</h3>
             <p className="info">
-              🚧 We're Getting Ready! Our website is currently under
+              🚧 We&apos;'re Getting Ready! Our website is currently under
               construction. 🚧
             </p>
             <p className="info">
