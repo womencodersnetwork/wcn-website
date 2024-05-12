@@ -7,8 +7,8 @@ const Home = () => {
     <div className="main-container landing-body">
       <div className="content-container">
         <div className="header">
-          <h2 className="title">W.E. Tech</h2>
-          <p className="subtitle">Women Everywhere in Tech</p>
+          <h2 className="title">Women Coders Network</h2>
+          <p className="subtitle">Women Coders Network</p>
           <hr className="hr-line" />
         </div>
 
@@ -16,9 +16,7 @@ const Home = () => {
           <section>
             <h3 className="section-header">Who Are We?</h3>
             <p className="info">
-              W.E. Tech is a growing force of change. We are building a thriving
-              ecosystem of communities, united by a powerful mission: to elevate
-              women in technology across the globe.
+            Women Coders Network is uniting communities to empower women and gender minorities in technology worldwide.
             </p>
           </section>
           <section>
@@ -29,7 +27,7 @@ const Home = () => {
             </p>
             <p className="info">
               Soon, it will be your go-to hub for resources, community
-              interaction, and essential updates from W.E Tech. Stay tuned for
+              interaction, and essential updates from WCN. Stay tuned for
               the launch of something great!
             </p>
           </section>
