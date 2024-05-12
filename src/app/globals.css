@@ -8,6 +8,12 @@ body {
 }
 
 body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.landing-body {
   background: linear-gradient(
     to bottom right,
     #004080,
@@ -16,10 +22,18 @@ body {
     #000000
   );
   color: #fff;
-  font-family: "Arial", sans-serif;
-  margin: 0;
+}
+
+.signup-body {
+  color: rgb(var(--foreground-rgb));
   padding: 20px;
-  overflow-x: hidden;
+  /*background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));*/
+    /*color:  #84fb9695;*/
 }
 
 .section-header {
@@ -90,6 +104,10 @@ body {
 .main-container {
   @apply flex flex-col items-center justify-center min-h-screen w-full;
 }
+.formStyle{
+  @apply w-full h-full p-4 my-2 text-start border-2 rounded focus:bg-wheat focus:outline-none focus:border-leafy 
+}
+
 
 @media (max-width: 768px) {
   .title {
@@ -107,6 +125,10 @@ body {
   .join-button {
     @apply text-sm py-2 px-4;
   }
+
+.signupOpt{
+  @apply w-12 m-4 border-grassGreen border-4 shadow-md rounded-full p-2
+}
 
   body {
     padding: 10px;

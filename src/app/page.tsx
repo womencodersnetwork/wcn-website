@@ -1,9 +1,10 @@
 import React from "react";
+// import Navbar from "./components/Navbar";
 import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="main-container">
+    <div className="main-container landing-body">
       <div className="content-container">
         <div className="header">
           <h2 className="title">W.E. Tech</h2>
