@@ -9,8 +9,8 @@ const Signup = () => {
   const googleIcon = "../assets/google.png"
   const discordIcon = "../assets/dicord.png"
   return (
-    <div>
-    <Navbar />
+    <div className= 'signup-body'>
+    {/* <Navbar /> */}
       <Starfield
         circleCount={100}
         speedFactor={0.01}
