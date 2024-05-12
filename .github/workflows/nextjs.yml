@@ -8,12 +8,12 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - under-construction
+      - main
   # deploy under-construction branch to GitHub Pages
   # Runs on pull requests targeting the default branch
   pull_request:
     branches:
-      - under-construction
+      - main
 
 
   # Allows you to run this workflow manually from the Actions tab
