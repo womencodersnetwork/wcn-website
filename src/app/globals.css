@@ -32,7 +32,6 @@ body {
     text-wrap: balance;
   }
 }
-
 .formStyle{
   @apply w-full h-full p-4 my-2 text-start border-2 rounded focus:bg-wheat focus:outline-none focus:border-leafy 
 }
@@ -40,3 +39,4 @@ body {
 .signupOpt{
   @apply w-12 m-4 border-grassGreen border-4 shadow-md rounded-full p-2
 }
+
