@@ -1,34 +1,49 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Link from "next/link";
 
 const Home = () => {
   return (
-    <div>
-      {/* <Navbar /> */}
-      <main className="flex min-h-screen flex-col items-center justify-center p-4">
-        <h1 className="text-center text-4xl font-bold">
-          Welcome to the Women Everywhere in Tech Website!
-        </h1>
-        <div>
-          <p className="text-center text-2xl">
-            While we're hard at work crafting an amazing website to serve you
-            better, we're thrilled to invite you to join our Discord community!
-            Connect with fellow women in tech, share ideas, seek support, and
-            learn together.
-          </p>
+    <div className="main-container landing-body">
+      <div className="content-container">
+        <div className="header">
+          <h2 className="title">Women Coders Network</h2>
+          <p className="subtitle">Women Coders Network</p>
+          <hr className="hr-line" />
         </div>
-        <div className="mt-8">
-          {/* <Link href="/signup">
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Join Now</div>
-          </Link> */}
-          <Link href="https://discord.gg/YpaJ3JckNM">
-            <div className="rounded bg-indigo-500 px-4 py-2 font-bold text-white hover:bg-indigo-600">
-              Join Our Discord!
-            </div>
-          </Link>
-        </div>
-      </main>
+
+        <main className="main-content">
+          <section>
+            <h3 className="section-header">Who Are We?</h3>
+            <p className="info">
+            Women Coders Network is uniting communities to empower women and gender minorities in technology worldwide.
+            </p>
+          </section>
+          <section>
+            <h3 className="section-header">What{'\''}s Happening?</h3>
+            <p className="info">
+              🚧 We{'\''}re Getting Ready! Our website is currently under
+              construction. 🚧
+            </p>
+            <p className="info">
+              Soon, it will be your go-to hub for resources, community
+              interaction, and essential updates from WCN. Stay tuned for
+              the launch of something great!
+            </p>
+          </section>
+          <section>
+            <h3 className="section-header">Get Connected!</h3>
+            <p className="info">
+              Join our Discord community! Connect with fellow women in tech,
+              share ideas, seek support, and learn together. Our collective
+              voice will shape the future of technology.
+            </p>
+            <Link href="https://discord.gg/YpaJ3JckNM">
+              <div className="join-button">Join Our Discord</div>
+            </Link>
+          </section>
+        </main>
+      </div>
     </div>
   );
 };
