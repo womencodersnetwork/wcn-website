@@ -1,4 +1,4 @@
-# WCN (Women Coders Network)
+# Women Coders Network (WCN)
 
 Welcome to the official repository for WCN, an organization dedicated to supporting and promoting women in technology through networking, resources, and community building.
 
